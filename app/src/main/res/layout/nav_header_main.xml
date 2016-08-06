@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    xmlns:app="http://schemas.android.com/tools"
+    android:background="@drawable/side_nav_bar"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:paddingTop="4dp"
+        android:elevation="12dp"
+        android:id="@+id/view"
+        app:cardCornerRadius="80dp"
+        android:layout_centerHorizontal="true"
+        android:innerRadius="2dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9">
+        <ImageView
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:paddingTop="6dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/professional"
+            android:layout_alignParentTop="true"
+            android:background="#00b0ff"
+            android:layout_centerHorizontal="true">
+        </ImageView>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:textSize="21sp"
+        android:text="Rishabh Banga"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="Pets Monitored: 1" />
+
+</LinearLayout>
